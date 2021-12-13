@@ -6,6 +6,11 @@
   box-sizing: border-box;
   font-family: Lato;
 }
+body {
+  background: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .container {
   clear: both;
@@ -54,4 +59,23 @@ nav a:hover {
 }
 #logo:hover {
   color: rgb(50, 199, 130);
+}
+#about-container {
+  padding-top: 150px;
+}
+.title {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.385);
+  padding: 5px;
+}
+.content {
+  display: flex;
+  padding: 20px;
+}
+.pro-image {
+  width: 280px;
+  height: 280px;
+}
+p {
+  font-size: 20px;
+  margin-top: 20px;
 }
