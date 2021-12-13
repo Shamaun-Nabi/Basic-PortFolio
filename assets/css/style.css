@@ -97,8 +97,31 @@ footer {
   border-radius: 0px;
 }
 
-
-
-
 /* contact page */
+
+input {
+  padding:7px;
+  width: 500px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form{
+  padding:5px;
+}
+
+textarea{
+  margin-top:5px;
+  height: 120px;
+  width:500px;
+}
+input[type=submit] {
+  color: #ffffff;
+  cursor: pointer;
+  background: linear-gradient(145deg, #202126, #27282d);
+  border: 0 none;
+  text-align: center;
+}
+
 
