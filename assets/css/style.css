@@ -29,7 +29,6 @@ body {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  /* background: #24252a; */
   border-radius: 0px;
   background: linear-gradient(145deg, #202126, #27282d);
   box-shadow: 0px 0px 15px #222328, -5px -12px 1px #26272c;
@@ -115,32 +114,35 @@ input[type="submit"] {
   border: 0 none;
   text-align: center;
 }
-.row{
-  display: flex;
-}
 
-.work{
-  /* width:50%; */
-}
 .column {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  float: left;
+  width: 25%;
 }
 
 .work img {
   object-fit: fill;
   width: 100%;
-  /* border: 0 none; */
+}
+
+.work {
+  position: relative;
+}
+.work h3 {
+  text-align: center;
+  margin-top: 5px;
+
 }
 
 .myfooter {
-  /* width: 100vw; */
   height: 2rem;
   background: linear-gradient(145deg, #202126e2, #27282d);
   color: white;
-  /* display: inline-block; */
   margin-top: auto;
   text-align: center;
   padding: 5px;
+  border-top: 5px solid rgb(26, 214, 180);
 }
