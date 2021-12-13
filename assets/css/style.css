@@ -126,6 +126,9 @@ input[type="submit"] {
 .work img {
   object-fit: fill;
   width: 100%;
+  border-radius: 19px;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 15px #dadada, -5px -5px 15px #f6f6f6;
 }
 
 .work {
@@ -134,7 +137,6 @@ input[type="submit"] {
 .work h3 {
   text-align: center;
   margin-top: 5px;
-
 }
 
 .myfooter {
